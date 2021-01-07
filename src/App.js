@@ -1,4 +1,5 @@
 import React from 'react';
+import Formulary from './Components/Formulary';
 
 function App() {
   return (
@@ -7,10 +8,10 @@ function App() {
    <div className='container'> 
      <div className='row'>
        <div className='one-half column'>
-          1
+          <Formulary/>
        </div>
        <div className='one-half column'>
-         2
+         
        </div>
      </div>
    </div>
